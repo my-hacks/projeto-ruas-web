@@ -1,15 +1,17 @@
-.sidebar{
-    &[data-color="black"]:after{
-        @include icon-gradient(#282828, rgba(#111,.7));
-    }
-    .logo-img img {
-      max-width: 40px;
-      max-height: 40px;
-    }
+.sidebar {
+  &[data-color="black"]:after {
+    @include icon-gradient(#282828, rgba(#111, .7));
+  }
+
+  .logo-img img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 20px;
+  }
 }
 
-@media (max-width: 991px){
-  .sidebar .nav > li.active.active-pro {
+@media (max-width: 991px) {
+  .sidebar .nav>li.active.active-pro {
     position: relative;
     bottom: unset;
   }
