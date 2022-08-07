@@ -54,7 +54,7 @@ const dashboardRoutes = [
     component: TableList,
     layout: "/admin"
   },
-  {
+  /* {
     path: "/typography",
     name: "Typography",
     icon: "nc-icon nc-paper-2",
@@ -81,7 +81,7 @@ const dashboardRoutes = [
     icon: "nc-icon nc-bell-55",
     component: Notifications,
     layout: "/admin"
-  }
+  } */
 ];
 
 export default dashboardRoutes;
